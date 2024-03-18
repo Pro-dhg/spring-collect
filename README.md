@@ -1,2 +1,2 @@
-# spring-integration
+# spring-collect
 org.springframework
