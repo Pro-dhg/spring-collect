@@ -1,0 +1,13 @@
+server:
+  port: 8862
+
+eureka:
+  client:
+    service-url: #Eureka Server地址
+      defaultZone: http://www.eureka-node1.com:8862/eureka/,http://www.eureka-node3.com:8863/eureka/,
+  instance:
+    hostname: www.eureka-node2.com
+
+spring:
+  application:
+    name: server-eureka
